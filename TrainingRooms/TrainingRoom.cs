@@ -2,7 +2,7 @@
 
 namespace TrainingRooms
 {
-    public class TrainingRooms
+    public class TrainingRoom
     {
         public int Id
         {
@@ -26,6 +26,11 @@ namespace TrainingRooms
         {
             get;
             set;
+        }
+
+        public override string ToString()
+        {
+            return Name;
         }
     }
 }

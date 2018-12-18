@@ -5,24 +5,24 @@ namespace TrainingRooms
 {
     public class RoomRespository
     {
-        private List<TrainingRooms> _rooms =
-            new List<TrainingRooms>
+        private readonly List<TrainingRoom> _rooms =
+            new List<TrainingRoom>
             {
-                new TrainingRooms
+                new TrainingRoom
                 {
                     Id = 1,
                     Name = "Copernicus",
                     Location = "bldg 1",
                     NumberComputers = 25
                 },
-                new TrainingRooms
+                new TrainingRoom
                 {
                     Id = 2,
                     Name = "Sagitarius",
                     Location = "bldg 1",
                     NumberComputers = 10
                 },
-                new TrainingRooms
+                new TrainingRoom
                 {
                     Id = 3,
                     Name = "Luna",
@@ -35,12 +35,12 @@ namespace TrainingRooms
         {
         }
 
-        public List<TrainingRooms> GetRooms()
+        public List<TrainingRoom> GetRooms()
         {
             return _rooms;
         }
 
-        public TrainingRooms GetRoom(int id)
+        public TrainingRoom GetRoom(int id)
         {
             return(from r in _rooms
                   where r.Id == id
