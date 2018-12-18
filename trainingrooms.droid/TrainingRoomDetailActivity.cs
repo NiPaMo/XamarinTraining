@@ -15,7 +15,7 @@ namespace trainingrooms.droid
             SetContentView(Resource.Layout.TrainingRoomDetail);
 
             int roomId = Intent.GetIntExtra("roomId", 0);
-            var repo = new TrainingRooms.RoomRespository();
+            var repo = new TrainingRooms.RoomRepository();
             var room = repo.GetRoom(roomId);
 
             this.Title = "Room Detail";

@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace TrainingRooms
 {
-    public class RoomRespository
+    public class RoomRepository
     {
         private readonly List<TrainingRoom> _rooms =
             new List<TrainingRoom>
@@ -31,7 +31,7 @@ namespace TrainingRooms
                 },
 
             };
-        public RoomRespository()
+        public RoomRepository()
         {
         }
 

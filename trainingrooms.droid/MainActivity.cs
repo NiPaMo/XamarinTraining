@@ -18,7 +18,7 @@ namespace trainingrooms.droid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            var repo = new RoomRespository();
+            var repo = new RoomRepository();
             var rooms = repo.GetRooms();
 
             var adaptor = new ArrayAdapter<TrainingRoom>(this,

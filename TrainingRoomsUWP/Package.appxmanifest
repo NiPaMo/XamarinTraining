@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="22fefe7a-45d8-42fd-8eaa-8c796eb23547"
-    Publisher="CN=Nick Moyer"
+    Name="1a5f51bd-1c86-4fa8-9b76-1ec3741e05e6"
+    Publisher="CN=Matt Milner"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="22fefe7a-45d8-42fd-8eaa-8c796eb23547" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="1a5f51bd-1c86-4fa8-9b76-1ec3741e05e6" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>TrainingRoomsUWP</DisplayName>
-    <PublisherDisplayName>Nick Moyer</PublisherDisplayName>
+    <DisplayName>TrainingRooms.UWP</DisplayName>
+    <PublisherDisplayName>Matt Milner</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="TrainingRoomsUWP.App">
+      EntryPoint="TrainingRooms.UWP.App">
       <uap:VisualElements
-        DisplayName="TrainingRoomsUWP"
+        DisplayName="TrainingRooms.UWP"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="TrainingRoomsUWP"
+        Description="TrainingRooms.UWP"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
